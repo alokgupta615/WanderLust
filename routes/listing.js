@@ -10,6 +10,27 @@ const { storage } = require("../cloudConfing.js");
 
 const upload = multer({ storage });
 
+router.get(
+  "/search",
+  wrapAsync(async (req, res) => {
+    const { q } = req.query;
+
+    if (!q || q.trim() === "") {
+      req.flash("error", "Please enter something to search");
+      return res.redirect("/listings");
+    }
+
+    const listings = await Listing.find({
+      $or: [
+        { title: { $regex: q, $options: "i" } },
+        { location: { $regex: q, $options: "i" } },
+        { country: { $regex: q, $options: "i" } },
+      ],
+    });
+    res.render("listings/index", { allListings: listings });
+  })
+);
+
 router
   .route("/")
   .get(wrapAsync(listingController.index))
