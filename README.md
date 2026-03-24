@@ -1,4 +1,3 @@
-```md
 # 🌍 Wanderlust – Travel & Stay Listing Platform
 
 ## 🚀 Live Demo
@@ -45,9 +44,6 @@ This project is built using the MERN stack and focuses on RESTful APIs, authenti
 
 ---
 
-## 📂 Project Structure
-
-
 Wanderlust/
 │── models/
 │── routes/
@@ -72,6 +68,8 @@ CLOUDINARY_KEY=your_key
 SECRET=your_secret
 
 npm start
+```
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -82,7 +80,6 @@ npm start
 
 ### 📍 Listing Page
 ![Listing Page](https://raw.githubusercontent.com/alokgupta615/WanderLust/main/listing.png)
-
 
 📚 What I Learned
 Building RESTful APIs
@@ -104,3 +101,5 @@ Alok Kumar Gupta
 🔗 https://www.linkedin.com/in/aalok-gupta-497a7424a/
 
 ⭐ If you like this project, give it a star on GitHub!
+
+## 📂 Project Structure
