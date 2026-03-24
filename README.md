@@ -1,17 +1,15 @@
+```md
 # 🌍 Wanderlust – Travel & Stay Listing Platform
 
 ## 🚀 Live Demo
-
 [Click Here to View Live Project](https://wanderlust-yp1e.onrender.com/listings)
 
 ## 📂 GitHub Repository
-
 https://github.com/alokgupta615/wanderlust
 
 ---
 
 ## 📖 Description
-
 Wanderlust is a full-stack web application that allows users to explore, create, and manage travel destination listings. Users can view places, add new listings, edit details, and share their travel experiences.
 
 This project is built using the MERN stack and focuses on RESTful APIs, authentication, and responsive UI design.
@@ -19,40 +17,36 @@ This project is built using the MERN stack and focuses on RESTful APIs, authenti
 ---
 
 ## ✨ Features
-
-* 🏡 Add, edit, and delete travel listings
-* 📍 View detailed information about destinations
-* 🔐 User authentication (Login/Register)
-* 🖼️ Image upload for listings
-* 💬 Reviews and ratings
-* 📱 Fully responsive design
+- 🏡 Add, edit, and delete travel listings  
+- 📍 View detailed information about destinations  
+- 🔐 User authentication (Login/Register)  
+- 🖼️ Image upload for listings  
+- 💬 Reviews and ratings  
+- 📱 Fully responsive design  
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend:**
-
-* React.js / EJS
-* HTML, CSS, Bootstrap / MUI
+- React.js / EJS  
+- HTML, CSS, Bootstrap / MUI  
 
 **Backend:**
-
-* Node.js
-* Express.js
+- Node.js  
+- Express.js  
 
 **Database:**
-
-* MongoDB
+- MongoDB  
 
 **Other Tools:**
-
-* Cloudinary (Image Upload)
-* JWT Authentication
+- Cloudinary (Image Upload)  
+- JWT Authentication  
 
 ---
 
 ## 📂 Project Structure
+
 
 Wanderlust/
 │── models/
@@ -62,31 +56,22 @@ Wanderlust/
 │── public/
 │── app.js / server.js
 
+
 ---
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
-   git clone https://github.com/alokgupta615/wanderlust.git
+```bash
+git clone https://github.com/alokgupta615/wanderlust.git
+cd wanderlust
+npm install
 
-2. Navigate to the project:
-   cd wanderlust
+# Create .env file
+MONGO_URI=your_mongodb_url
+CLOUDINARY_KEY=your_key
+SECRET=your_secret
 
-3. Install dependencies:
-   npm install
-
-4. Create a .env file and add:
-   MONGO_URI=your_mongodb_url
-   CLOUDINARY_KEY=your_key
-   SECRET=your_secret
-
-5. Run the project:
-   npm start
-
----
-
-## 📸 Screenshots
-
+npm start
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -98,31 +83,24 @@ Wanderlust/
 ### 📍 Listing Page
 ![Listing Page](https://raw.githubusercontent.com/alokgupta615/WanderLust/main/listing.png)
 
----
 
-## 📚 What I Learned
-
-* Building RESTful APIs
-* Authentication using JWT
-* MongoDB data modeling
-* Full-stack project development
-* Deployment process
-
----
-
-## 🤝 Contributing
+📚 What I Learned
+Building RESTful APIs
+Authentication using JWT
+MongoDB data modeling
+Full-stack project development
+Deployment process
+🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
 
----
+📧 Contact
 
-## 📧 Contact
+Alok Kumar Gupta
+📧 aalokgupta4545@gmail.com
 
-**Alok Kumar Gupta**
-📧 [aalokgupta4545@gmail.com](mailto:aalokgupta@gmail.com)
 🔗 https://github.com/alokgupta615
-🔗 https://www.linkedin.com/in/aalok-gupta-497a7424a/
 
----
+🔗 https://www.linkedin.com/in/aalok-gupta-497a7424a/
 
 ⭐ If you like this project, give it a star on GitHub!
