@@ -43,14 +43,15 @@ This project is built using the MERN stack and focuses on RESTful APIs, authenti
 - JWT Authentication  
 
 ---
+## 📂 Project Structure
 
-Wanderlust/
-│── models/
-│── routes/
-│── controllers/
-│── views/ or client/
-│── public/
-│── app.js / server.js
+📁 Wanderlust
+├── 📁 models
+├── 📁 routes
+├── 📁 controllers
+├── 📁 views / client
+├── 📁 public
+└── 📄 app.js / server.js
 
 
 ---
@@ -102,4 +103,4 @@ Alok Kumar Gupta
 
 ⭐ If you like this project, give it a star on GitHub!
 
-## 📂 Project Structure
+
