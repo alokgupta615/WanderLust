@@ -87,21 +87,16 @@ Wanderlust/
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+## 📸 Screenshots
 
-![Home Page](<img width="1902" height="873" alt="image" src="https://github.com/user-attachments/assets/bc9032bb-03c4-41df-a622-c48f22758f5e" />
-)
+### 🏠 Home Page
+![Home Page](https://raw.githubusercontent.com/alokgupta615/WanderLust/main/home.png)
 
 ### 🔐 Login Page
-
-![Login Page](<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/ce376eda-5837-4862-b5ab-df6222a587cc" />)
-
-
+![Login Page](https://raw.githubusercontent.com/alokgupta615/WanderLust/main/login.png)
 
 ### 📍 Listing Page
-
-![Listing Page](<img width="1896" height="868" alt="image" src="https://github.com/user-attachments/assets/322f12cc-0f64-48d6-8d35-991e9f65c85d" />
-)
+![Listing Page](https://raw.githubusercontent.com/alokgupta615/WanderLust/main/listing.png)
 
 ---
 
